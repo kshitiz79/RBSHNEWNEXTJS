@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1754894962597",
+    "name": "Kshitiz Maurya",
+    "organization": "rbsh",
+    "email": "kshitiz09@gmail.com",
+    "number": "23344445454",
+    "website": "https://app.himtajjewelry.com/shop",
+    "services": [
+      "Branding",
+      "Mobile App Development & UI/UX"
+    ],
+    "status": "new",
+    "createdAt": "2025-08-11T06:49:22.597Z",
+    "updatedAt": "2025-08-11T06:49:22.597Z",
+    "id": "1754564010231",
+    "name": "Manupriya Nagar",
+    "organization": "asfghjkl",
+    "email": "ooooo@gmail.com",
+    "number": "9910265165",
+    "website": "https://asdfghjk.com",
+    "services": [
+      "Content Creation & Marketing"
+    ],
+    "status": "new",
+    "createdAt": "2025-08-07T10:53:30.231Z",
+    "updatedAt": "2025-08-07T10:53:30.231Z"
+  },
+  {
+    "id": "1754546128037",
+    "name": "sunidhi chauhan",
+    "organization": "rbsh",
+    "email": "sunidhi@gmail.com",
+    "number": "1234567890",
+    "website": "https://www.instagram.com/",
+    "services": [
+      "Branding",
+      "Social Media Management",
+      "Email & SMS Marketing Automation"
+    ],
+    "status": "new",
+    "createdAt": "2025-08-07T05:55:28.037Z",
+    "updatedAt": "2025-08-07T05:55:46.774Z",
+    "notes": ""
+  }
+]

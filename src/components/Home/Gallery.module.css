@@ -1,0 +1,14 @@
+.responsive-height {
+  height: 40vh; /* Default height for larger screens */
+}
+
+@media (max-width: 768px) {
+  .responsive-height {
+    height: 20vh; /* Adjusted height for mobile screens */
+  }
+}
+@media (max-width: 1024px) {
+  .responsive-height {
+    height: 22vh; /* Adjusted height for mobile screens */
+  }
+}

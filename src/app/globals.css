@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+body{
+  background-color: #e5e8ea;
+}
+@font-face {
+  font-family: "Mozilla Text";
+  src: url("/MozillaText-Regular.ttf") format("truetype");
+  font-weight: 200 700;
+  font-style: normal;
+
+}
+
+body {
+  font-family: "Mozilla Text", sans-serif;
+}
+
+
