@@ -141,14 +141,6 @@ const Footer = () => {
               </div>
             </div>
 
-            <div>
-              <h5 className="text-lg font-semibold mb-4">Our Links</h5>
-              <ul className="space-y-2">
-                <li><Link href="/career" className="hover:text-yellow-500">Career</Link></li>
-                <li><Link href="/about" className="hover:text-yellow-500">FAQ</Link></li>
-                <li><Link href="/blog" className="hover:text-yellow-500">Blogs</Link></li>
-              </ul>
-            </div>
 
             <div>
               <h5 className="text-lg font-semibold mb-4">Find It Fast</h5>
@@ -156,6 +148,21 @@ const Footer = () => {
                 <li><Link href="/about" className="hover:text-yellow-500">About Us</Link></li>
                 <li><Link href="/service" className="hover:text-yellow-500">Services</Link></li>
                 <li><Link href="/contact" className="hover:text-yellow-500">Contact Us</Link></li>
+                <li><Link href="/blog" className="hover:text-yellow-500">Blogs</Link></li>
+                <li><Link href="/about" className="hover:text-yellow-500">FAQ</Link></li>
+                <li><Link href="/career" className="hover:text-yellow-500">Career</Link></li>
+              </ul>
+            </div>
+
+                <div>
+              <h5 className="text-lg font-semibold mb-4">Consumer Policy</h5>
+              <ul className="space-y-2">
+                <li><Link href="/termsofuse" className="hover:text-yellow-500">Privacy Policy</Link></li>
+                <li><Link href="/cancellation" className="hover:text-yellow-500">Cancelation Policy</Link></li>
+                <li><Link href="/terms" className="hover:text-yellow-500">Terms of use</Link></li>
+                <li><Link href="/security" className="hover:text-yellow-500">security</Link></li>
+                <li><Link href="/refundPolicy" className="hover:text-yellow-500">Refund Policy</Link></li>
+                <li><Link href="/greivance" className="hover:text-yellow-500">Grievance Redressal</Link></li>
               </ul>
             </div>
 
