@@ -123,19 +123,19 @@ const Footer = () => {
                 alt="RBSH Studio Logo"
                 width={240}
                 height={80}
-                className="mb-4 -ml-16 w-[27rem]"
+                className="mb-4 -ml-16  w-[27rem]"
               />
-              <div className="flex space-x-7 md:space-x-2 mt-4 mr-8 text-xl">
-                <a href="https://www.facebook.com/rbshstudio" target="_blank" rel="noopener noreferrer" title="Follow us on Facebook" className="text-gray-400 hover:text-white border rounded-full p-3">
+              <div className="flex space-x-7 md:space-x-2 mt-4 text-xl 2xl:ml-4">
+                <a href="https://www.facebook.com/rbshstudio" target="_blank" rel="noopener noreferrer" title="Follow us on Facebook" className="text-gray-400 hover:text-white border rounded-full p-3 2xl:p-5">
                   <FaFacebookF />
                 </a>
-                <a href="https://www.linkedin.com/company/rbshstudio/" target="_blank" rel="noopener noreferrer" title="Connect with us on LinkedIn" className="text-gray-400 hover:text-white border rounded-full p-3">
+                <a href="https://www.linkedin.com/company/rbshstudio/" target="_blank" rel="noopener noreferrer" title="Connect with us on LinkedIn" className="text-gray-400 hover:text-white border rounded-full p-3 2xl:p-5">
                   <FaLinkedinIn />
                 </a>
-                <a href="https://www.instagram.com/rbshstudio" target="_blank" rel="noopener noreferrer" title="Follow us on Instagram" className="text-gray-400 hover:text-white border rounded-full p-3">
+                <a href="https://www.instagram.com/rbshstudio" target="_blank" rel="noopener noreferrer" title="Follow us on Instagram" className="text-gray-400 hover:text-white border rounded-full p-3 2xl:p-5">
                   <FaInstagram />
                 </a>
-                <a href="https://www.youtube.com/@rbshstudio" target="_blank" rel="noopener noreferrer" title="Subscribe to our YouTube channel" className="text-gray-400 hover:text-white border rounded-full p-3">
+                <a href="https://www.youtube.com/@rbshstudio" target="_blank" rel="noopener noreferrer" title="Subscribe to our YouTube channel" className="text-gray-400 hover:text-white border rounded-full p-3 2xl:p-5">
                   <FaYoutube />
                 </a>
               </div>

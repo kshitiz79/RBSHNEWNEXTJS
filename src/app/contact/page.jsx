@@ -186,9 +186,9 @@ const Contact = () => {
         </div>
 
         <div className="image-section grid grid-cols-1 gap-4 ml-0 sm:ml-12">
-          <img src="/contactus1.png" alt="Product 1" className="w-full h-auto object-cover rounded-lg" />
-          <img src="/contactus2.png" alt="Product 2" className="w-full h-auto object-cover rounded-lg" />
-          <img src="/contactus3.png" alt="Product 3" className="w-full h-auto object-cover rounded-lg" />
+          <img src="/contactus1.png" alt="Product 1" className="w-full h-auto 2xl:h-[35vh] object-cover rounded-lg" />
+          <img src="/contactus2.png" alt="Product 2" className="w-full h-auto 2xl:h-[35vh] object-cover rounded-lg" />
+          <img src="/contactus3.png" alt="Product 3" className="w-full h-auto 2xl:h-[35vh]  object-cover rounded-lg" />
         </div>
       </div>
     </div>

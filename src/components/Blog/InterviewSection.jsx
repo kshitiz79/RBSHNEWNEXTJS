@@ -30,7 +30,7 @@ export default function InterviewSection() {
   return (
     <section className="bg-[#e5e8ea] relative min-h-screen text-black font-sans px-6 border-b border-black md:text-justify md:-mt-20">
          <div className="">
-        <div className="md:w-full h-auto">
+        <div className="md:w-full h-auto 2xl:items-center flex justify-center items-center">
             <img src="/blog8.png" alt="" className="object-fill"/>
           </div>
    
