@@ -127,7 +127,7 @@ const AboutSection = () => {
             {/* Video Section - 40% of height */}
             <motion.div
               style={{ height: videoHeight }}
-              className="md:h-[40vh] h-[60vh]  border-b border-[#0A0D11] "
+              className="md:h-[40vh] h-[60vh] 2xl:h-[100vh] border-b border-[#0A0D11] "
             >
               <motion.video
                 src="/ABOUTUS.mp4"
@@ -136,13 +136,13 @@ const AboutSection = () => {
                 loop
                 playsInline
                 style={{ height: "100%" }}
-                className="w-full object-cover p-6 rounded-lg"
+                className="w-full object-cover 2xl:cover p-6 2xl:p-4 rounded-lg"
               />
             </motion.div>
 
             {/* Text Section - 60% of height, sticky within */}
             <div className="h-[60vh] px-6">
-              <div className="h-full flex flex-col justify-between max-w-2xl ml-auto">
+              <div className="h-full flex flex-col justify-between max-w-2xl ml-auto "> 
                 <h2 className="text-[2.4rem] leading-none pt-8">
                   We Don’t Just Build We Create Impact
                 </h2>
