@@ -27,7 +27,7 @@ const BlogHero = () => {
             <p className="font-semibold text-2xl py-4 md:text-justify">
               {" "}
               <span className="text-green-600">
-                The world of graphic design is evolving faster than ever — and
+                The world of graphic design is evolving faster than ever and
                 in 2025,{" "}
               </span>
               we’re seeing a powerful collision of minimalism, AI-generated
@@ -38,7 +38,7 @@ const BlogHero = () => {
             <br />
             <p>
               AI Meets Imagination AI tools like Midjourney, Adobe Firefly, and
-              DALL·E have redefined what’s possible — not as replacements, but
+              DALL·E have redefined what’s possible not as replacements, but
               as collaborators. Designers who embrace these tools are able to
               ideate faster, iterate better, and push creative boundaries. The
               key? Keeping your human intuition at the center.
@@ -46,17 +46,17 @@ const BlogHero = () => {
             <br />
             <p>
               Bold Type. Brave Color. Big Impact. Forget safe palettes and
-              subtle fonts — 2025 is about grabbing attention. Think
-              super-saturated neons, oversized fonts, and unapologetic visuals.
+              subtle fonts 2025 is about grabbing attention. Think
+              super saturated neons, oversized fonts, and unapologetic visuals.
               Brands are going louder and bolder, especially in digital spaces
-              where scroll-stopping matters most.
+              where scroll stopping matters most.
             </p>
             <br />
 
             <p>
               Retro-Tech & Nostalgia Designers are bringing back pixel art,
-              skeuomorphism, and 90s grunge in a polished way — giving digital
-              experiences a touch of analog warmth. It’s not just aesthetic —
+              skeuomorphism, and 90s grunge in a polished way giving digital
+              experiences a touch of analog warmth. It’s not just aesthetic
               it’s storytelling through memory.
             </p>
 
@@ -72,7 +72,7 @@ const BlogHero = () => {
             <p>
               Purpose-Driven Aesthetics Whether it’s eco-conscious packaging or
               inclusive visual language, brands are finally designing with
-              intention — not just for clicks. Users care why something looks
+              intention  not just for clicks. Users care why something looks
               the way it does, and designers are responding with meaning, not
               just style.
             </p>
@@ -95,7 +95,7 @@ const BlogHero = () => {
             </h1>
             <p className="py-10 md:text-2xl text-xl pb-20 ">
               In the fast-moving world of digital marketing, staying ahead isn’t
-              optional—it’s essential. As we settle into 2025, brands face a
+              optional it’s essential. As we settle into 2025, brands face a
               more fragmented, more competitive, and more opportunity-rich
               landscape than ever before.
             </p>
@@ -124,7 +124,7 @@ const BlogHero = () => {
               <h2 className="font-bold mb-4 ">The Age of Micro-Communities</h2>
               <p className="">
                 Large audiences are splintering into passionate
-                micro-communities—whether it’s niche Reddit threads, Telegram
+                micro-communities whether it’s niche Reddit threads, Telegram
                 groups, or Discord servers. Instead of broadcasting generic
                 content, successful brands are embedding themselves in these
                 spaces, speaking directly to highly engaged segments.
@@ -134,7 +134,7 @@ const BlogHero = () => {
             {/* 2. AI-Generated Content */}
             <div>
               <h2 className="font-bold mb-4">
-                AI-Generated Content—With a Human Touch
+                AI-Generated Content with a Human Touch
               </h2>
               <p className="">
                 <span className="text-blue-600">
@@ -152,7 +152,7 @@ const BlogHero = () => {
               </h2>
               <p className="">
                 Static posts are easy to ignore.   <span className="text-blue-600">Interactive
-                experiences —quizzes, polls, calculators, AR filters—invite  </span>
+                experiences quizzes, polls, calculators, AR filters invite  </span>
                 participation and keep audiences engaged longer.
               </p>
             </div>
@@ -177,7 +177,7 @@ const BlogHero = () => {
               <p className="">
                 Consumers want to buy from brands that align with their values.
                 Clear, credible communication about <span className="text-blue-600"> sustainability and social
-                impact</span> is no longer a nice-to-have—it's a competitive
+                impact</span> is no longer a nice-to-have it's a competitive
                 differentiator.
               </p>
             </div>
@@ -192,7 +192,7 @@ const BlogHero = () => {
               2025
             </h1>
             <p className="py-4 md:mt-4 md:text-xl text-lg text-center md:px-12 md:mb-10 ">
-              From startups to enterprises, everyone’s betting on Next.js—and
+              From startups to enterprises, everyone’s betting on Next.js and
               for good reason. In 2025, it’s not just a React framework. It’s
               the backbone of some of the most high-performance websites and
               apps on the internet.

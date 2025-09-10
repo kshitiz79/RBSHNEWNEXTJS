@@ -3,15 +3,15 @@ export default function InterviewSection() {
   const dialogue = [
     {
       speaker: "DESIGN",
-      text: ` Figma / Framer — Where Ideas Begin\nDesign is no longer a handoff—it’s a conversation.\n\nFigma has become the industry standard for collaborative design. Teams co-create in real time, annotate flows, and export responsive assets directly for development. Designers and developers can now work side-by-side instead of in silos.\n\nFramer brings in motion. With interactive prototypes and live previewing, it allows teams to visualize animations, transitions, and user flows early in the process—before a single line of code is written.\n\n`,
+      text: ` Figma / Framer — Where Ideas Begin\nDesign is no longer a handoff it’s a conversation.\n\nFigma has become the industry standard for collaborative design. Teams co-create in real time, annotate flows, and export responsive assets directly for development. Designers and developers can now work side-by-side instead of in silos.\n\nFramer brings in motion. With interactive prototypes and live previewing, it allows teams to visualize animations, transitions, and user flows early in the process before a single line of code is written.\n\n`,
     },
     {
       speaker: "UI",
-      text: ` Next.js + Tailwind CSS — Modern UI Development\nOnce the designs are locked, development kicks in—with speed and flexibility at the core.\n\nNext.js is more than a React framework now. It offers:\n\n- Hybrid rendering (static + server-side)\n- API routes\n- React Server Components\n- Edge-ready performance\n- File-system routing with App Router\n\nPair it with Tailwind CSS, and you get scalable, utility-first styling without bloated CSS files. Developers can rapidly prototype and implement pixel-perfect layouts without ever leaving their components.\n\n`,
+      text: ` Next.js + Tailwind CSS — Modern UI Development\nOnce the designs are locked, development kicks in with speed and flexibility at the core.\n\nNext.js is more than a React framework now. It offers:\n\n- Hybrid rendering (static + server-side)\n- API routes\n- React Server Components\n- Edge-ready performance\n- File-system routing with App Router\n\nPair it with Tailwind CSS, and you get scalable, utility-first styling without bloated CSS files. Developers can rapidly prototype and implement pixel-perfect layouts without ever leaving their components.\n\n`,
     },
     {
       speaker: "CMS",
-      text: `  Sanity / Strapi — Headless CMS That Grows With You\nIn 2025, content is dynamic—and the CMS must match.\n\nSanity and Strapi offer customizable APIs, real-time content updates, and flexible schema control, enabling marketers and editors to update content without touching code.\n\nThis decoupling of content from code means developers can build frontend logic once, and editors can push updates independently.\n\n`,
+      text: `  Sanity / Strapi — Headless CMS That Grows With You\nIn 2025, content is dynamic and the CMS must match.\n\nSanity and Strapi offer customizable APIs, real-time content updates, and flexible schema control, enabling marketers and editors to update content without touching code.\n\nThis decoupling of content from code means developers can build frontend logic once, and editors can push updates independently.\n\n`,
     },
     {
       speaker: "DEPLOY",

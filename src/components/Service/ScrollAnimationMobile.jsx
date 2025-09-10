@@ -28,7 +28,7 @@ const ScrollAnimationMobile = () => {
     {
       title: "Packaging Design",
       image: "/service/10.png",
-      text: "Packaging is your product's first impression . we make it count. Our designs balance visual appeal with functionality, crafted to stand out on shelves and connect with consumers at a glance.",
+      text: "Packaging is your product's first impression. we make it count. Our designs balance visual appeal with functionality, crafted to stand out on shelves and connect with consumers at a glance.",
     },
     {
       title: "Brand Strategy",

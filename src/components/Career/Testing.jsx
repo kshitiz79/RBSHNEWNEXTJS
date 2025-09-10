@@ -45,11 +45,11 @@ const Testing = () => {
           {/* Description */}
           <div className="mt-4 md:mt-6 px-1 md:px-2">
             <p className="text-base md:text-xl text-gray-700 text-justify">
-              It’s not just the work we do — it’s how we do it. At RBSH Studio,
+              It’s not just the work we do it’s how we do it. At RBSH Studio,
               creativity isn’t confined to a department; it’s the foundation of
               everything we build. We foster a culture where ideas are heard,
               roles are flexible, and growth is continuous. Whether you're
-              directing a shoot, designing a brand, or writing a content — you’re
+              directing a shoot, designing a brand, or writing a content you’re
               trusted to take ownership and push boundaries.
             </p>
           </div>

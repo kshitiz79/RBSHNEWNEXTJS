@@ -59,7 +59,7 @@ export default function RentalOffer() {
     <section className="relative w-full h-auto bg-[#e5e8ea] z-10 md:pt-10">
       <section className="relative bg-[#e5e8ea] text-black  px-6 md:py-16 md:px-20">
         <div className="w-full ">
-          <h1 className="text-[2.8rem] md:text-6xl md:font-bold font-semibold leading-none mb-6 max-w-4xl">
+          <h1 className="text-[1.4em] md:text-6xl md:font-bold font-semibold leading-none mb-6 md:max-w-4xl max-w-xl md:mt-0 mt-10 ">
             Create Bold. Think Beyond. <br />
             Work Together
           </h1>
@@ -79,17 +79,17 @@ export default function RentalOffer() {
           <div className="grid md:grid-cols-2 gap-8  ">
             <Card
               heading="RBSH Studio is where ideas turn into visuals, and visuals turn into impact."
-              paragraph="We’re a creative house driven by a simple belief — bold storytelling can shape how people think, feel, and connect. From concept to execution, we work across mediums and industries to craft stories that matter."
+              paragraph="We’re a creative house driven by a simple belief bold storytelling can shape how people think, feel, and connect. From concept to execution, we work across mediums and industries to craft stories that matter."
               bgColor="#ea4335"
             />
             <Card
-              heading="Here, you don’t just have a role — you have a voice."
+              heading="Here, you don’t just have a role you have a voice."
               paragraph="We foster a work culture that’s collaborative yet independent, ambitious yet grounded. Whether you're just starting out or sharpening your tenth reel, this is a space to experiment, challenge yourself, and do work you're proud of."
               bgColor="#F0c21F"
             />
             <Card
               heading="We believe teams work best when they reflect the world around them."
-              paragraph="At RBSH Studio, inclusion isn’t a buzzword — it’s the backbone of how we build. Our team brings together diverse experiences, backgrounds, and ways of thinking, and that’s what makes our work stronger."
+              paragraph="At RBSH Studio, inclusion isn’t a buzzword it’s the backbone of how we build. Our team brings together diverse experiences, backgrounds, and ways of thinking, and that’s what makes our work stronger."
               bgColor="#4384f2"
             />
             <Card
