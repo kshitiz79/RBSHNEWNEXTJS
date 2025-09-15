@@ -1,7 +1,7 @@
 // components/AboutMobile.jsx
 export default function AboutMobile() {
   return (
-    <section className="sticky top-30 w-full bg-[#e5e8ea] h-[80vh] text-gray-800 space-y-4 md:hidden mt-23 lg:mt-20">
+    <section className="sticky top-30 w-full bg-[#e5e8ea] h-[70vh] text-gray-800 space-y-4 md:hidden mt-23 lg:mt-20">
       {/* Heading */}
       <h2 className="text-4xl font-bold text-center">
           <div className="p-8">

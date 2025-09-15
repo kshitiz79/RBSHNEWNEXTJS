@@ -38,7 +38,7 @@ const Block = ({
 
       <motion.p
         style={{ opacity: paragraphOpacity, y: paragraphY }}
-        className="text-white text-left max-w-xl pb-8 text-justify ml-auto"
+        className="text-white text-left max-w-xl pb-8  ml-auto"
       >
         {text}
       </motion.p>

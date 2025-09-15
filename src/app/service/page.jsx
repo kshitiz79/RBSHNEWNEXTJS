@@ -1,19 +1,23 @@
 "use client";
 
-import { lazy, Suspense } from "react";
-import useIsMobile from "../../hooks/UserIsMobile";
+import { lazy } from "react";
 
 const ScrollAnimationBlock = lazy(() => import("../../components/Service/ScrollAnimationBlock"));
 const MobileServices = lazy(() => import("../../components/Service/ScrollAnimationMobile"));
 
-
 const Services = () => {
-  const isMobile = useIsMobile();
+
+
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      {isMobile ? <MobileServices /> : <ScrollAnimationBlock />}
-    </Suspense>
+    <>
+    <div className="block md:hidden">
+      <MobileServices /> </div>
+      <div className="hidden md:block">
+      <ScrollAnimationBlock />
+      </div>
+   
+    </>
   );
 };
 
