@@ -24,7 +24,7 @@ export default function Home() {
     <>
       {/* Hidden SEO Content */}
       <div className="sr-only">
-        <h1>RBSH Studio - Leading Web Development & Software Company in Noida Delhi</h1>
+        <h1>RBSH Studio - Leading Web Development & Software Company </h1>
         <p>
           RBSH Studio is a premier web development, software development, AI SaaS solutions, and graphic design company 
           based in Noida Delhi. We specialize in creating scalable software solutions, VFX, media technology, mobile apps, 

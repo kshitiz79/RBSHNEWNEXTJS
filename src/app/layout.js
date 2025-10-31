@@ -1,4 +1,3 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Global/Header";
 import Footer from "@/components/Global/Footer";
@@ -109,6 +108,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-291G14ZXRV"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-291G14ZXRV');
+            `,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -147,7 +158,7 @@ export default function RootLayout({ children }) {
               ],
               "services": [
                 "Web Development",
-                "Software Development", 
+                "Software Development",
                 "AI & SaaS Solutions",
                 "Graphic Design",
                 "VFX & Animation",
@@ -161,7 +172,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <CustomCursor/>
+        <CustomCursor />
         <Header />
         {children}
         <Footer />
