@@ -152,7 +152,7 @@ const ScrollAnimationBlock = () => {
     {
       title: "Packaging Design",
       image: "/service/10.png",
-      text: "Packaging is your product’s first impression—we make it count. Our designs balance visual appeal with functionality, crafted to stand out on shelves and connect with consumers at a glance.",
+      text: "Packaging is your product’s first impression we make it count. Our designs balance visual appeal with functionality, crafted to stand out on shelves and connect with consumers at a glance.",
     },
     {
       title: "Brand Strategy",
@@ -179,8 +179,6 @@ const ScrollAnimationBlock = () => {
       image: "/service/9.png",
       text: "We design scalable SaaS solutions that solve real problems. From product strategy to launch, we turn ideas into intuitive, cloud-based platforms that drive growth and user engagement.",
     },
-  
-
   ];
 
   return (
@@ -204,14 +202,14 @@ const ScrollAnimationBlock = () => {
               </div>
             </div>
             <p className="text-gray-900 text-lg md:text-2xl max-w-lg ">
-              Our services blend strategy, design, and technology to bring brands to life. From digital platforms to bold identities and growth-driven solutions—we help ideas scale with clarity and impact.
+              Our services blend strategy, design, and technology to bring brands to life. From digital platforms to bold identities and growth driven solutions we help ideas scale with clarity and impact.
             </p>
           </div>
         </div>
       </section>
 
       {/* Scroll-Aware Animated Blocks */}
-      <div ref={sectionRef} className="relative w-full md:h-[280vh]  h-[370vh] bg-[#e5e8ea] border-b border-black ">
+      <div ref={sectionRef} className="relative w-full md:h-[270vh] 2xl:h-[230vh]  h-[370vh] bg-[#e5e8ea] border-b border-black ">
         <section className="w-full h-screen bg-[#e5e8ea]">
           <div className="w-full h-full relative">
             {blocks.map((block, idx) => (

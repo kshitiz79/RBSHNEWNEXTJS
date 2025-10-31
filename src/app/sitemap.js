@@ -1,3 +1,7 @@
+// Required for static export
+export const dynamic = 'force-static';
+export const revalidate = false;
+
 export default function sitemap() {
   const baseUrl = 'https://rbshstudio.com';
   const currentDate = new Date().toISOString();

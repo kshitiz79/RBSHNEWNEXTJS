@@ -28,7 +28,7 @@ const TextMobile = () => {
   const blocks = [
     {
       title: "What we create",
-      text: "We craft engaging digital experiences—from websites and apps to brand identities, motion graphics, and videos. Every creation blends creativity, tech, and strategy to help brands stand out and connect meaningfully.",
+      text: "We craft engaging digital experiences from websites and apps to brand identities, motion graphics, and videos. Every creation blends creativity, tech, and strategy to help brands stand out and connect meaningfully.",
     },
     {
       title: "What we brainstorm",
@@ -36,7 +36,7 @@ const TextMobile = () => {
     },
     {
       title: "What we deliver",
-      text: "We deliver clean, scalable, and growth-ready digital solutions—fast-loading websites, standout branding, and high-performing campaigns. Everything we build is designed for real-world impact.",
+      text: "We deliver clean, scalable, and growth ready digital solutions fast-loading websites, standout branding, and high performing campaigns. Everything we build is designed for real world impact.",
     },
   ];
 

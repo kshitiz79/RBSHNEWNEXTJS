@@ -28,7 +28,7 @@ const ScrollAnimationMobile = () => {
     {
       title: "Packaging Design",
       image: "/service/10.png",
-      text: "Packaging is your product's first impression . we make it count. Our designs balance visual appeal with functionality, crafted to stand out on shelves and connect with consumers at a glance.",
+      text: "Packaging is your product's first impression. we make it count. Our designs balance visual appeal with functionality, crafted to stand out on shelves and connect with consumers at a glance.",
     },
     {
       title: "Brand Strategy",
@@ -60,7 +60,7 @@ const ScrollAnimationMobile = () => {
   return (
     <>
       {/* Intro Section */}
-      <section className="bg-[#e5e8ea] md:h-[90vh] h-[72vh] pt-32">
+      <section className="bg-[#e5e8ea] md:h-[90vh] h-[52vh] pt-32">
         <div className="container mx-auto px-4">
           <h1 className="text-6xl md:text-[20rem] font-bold text-gray-900 mb-8">
             <img
