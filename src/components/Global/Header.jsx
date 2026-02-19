@@ -63,6 +63,7 @@ const Header = () => {
     { link: "Home", path: "/" },
     { link: "About", path: "/about" },
     { link: "Our Services", path: "/service" },
+    { link: "Portfolio", path: "/portfolio" },
     { link: "Blog", path: "/blog" },
     { link: "Career", path: "/career" },
   ];
@@ -71,11 +72,10 @@ const Header = () => {
     <header className="w-full bg-[#e5e8ea] fixed top-0 left-0 z-50 border-b border-black">
       <nav
         ref={navRef}
-        className={`py-3 lg:px-8 px-3 ${
-          isSticky
-            ? "sticky top-0 bg-[#e5e8ea] shadow-lg transition-all duration-300 ease-in"
-            : "transition-all duration-300 ease-in"
-        }`}
+        className={`py-3 lg:px-8 px-3 ${isSticky
+          ? "sticky top-0 bg-[#e5e8ea] shadow-lg transition-all duration-300 ease-in"
+          : "transition-all duration-300 ease-in"
+          }`}
         aria-label="Main Navigation"
       >
         <div className="flex justify-between items-center gap-8">
