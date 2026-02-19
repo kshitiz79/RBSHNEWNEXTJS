@@ -148,7 +148,7 @@ export default function HorizontalScrollSections() {
                                             <img
                                                 src={section.smallImage}
                                                 alt="small"
-                                                className="w-[360px] h-[360px] object-cover shadow-2xl"
+                                                className="w-[360px] h-[360px] object-cover"
                                             />
                                         </div>
 

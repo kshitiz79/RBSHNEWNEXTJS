@@ -228,13 +228,13 @@ function ProjectCard({ img, index }) {
                         scale: isHovered ? 1 : 0.5
                     }}
                     transition={{ duration: 0.3 }}
-                    className="bg-white/30 backdrop-blur-sm text-black text-sm font-semibold h-10 w-32 rounded-full overflow-hidden flex items-center justify-center shadow-2xl relative"
+                    className="bg-green-100 backdrop-blur-md text-black text-md font-semibold h-10 w-32 rounded-full overflow-hidden flex items-center justify-center shadow-2xl relative"
                 >
                     <motion.div
                         className="flex whitespace-nowrap absolute left-0"
                         initial={{ x: "0%", opacity: 0 }}
                         animate={{
-                            x: isHovered ? ["0%", "-50%"] : "0%",
+                            x: isHovered ? ["0%", "-70%"] : "0%",
                             opacity: isHovered ? 1 : 0
                         }}
                         transition={isHovered ? {
