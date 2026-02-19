@@ -135,7 +135,7 @@ const TechnologyCarousel = () => {
   const cardWidthCalc = `calc((100vw - ${(cardsToShow - 1) * CARD_GAP}px) / ${cardsToShow})`;
 
   return (
-    <section className="relative overflow-hidden bg-[#e5e8ea] md:py-8 py-4 -mt-20 md:-mt-0">
+    <section className="relative overflow-hidden bg-[#e5e8ea] md:py-8 py-1 -mt-20 md:-mt-0">
       <div
         ref={containerRef}
         className="flex"
@@ -160,9 +160,9 @@ const TechnologyCarousel = () => {
               minWidth: 0,
             }}
           >
-            <Image src={logo} alt={title} width={150} height={80} className="mb-4" />
-            <h3 className="text-lg font-semibold mb-2 text-center">{title}</h3>
-            <p className="text-gray-600 text-sm text-center">{content}</p>
+            <Image src={logo} alt={title} width={150} height={80} />
+      
+
           </div>
         ))}
       </div>
