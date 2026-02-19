@@ -11,8 +11,8 @@ export default function ServicesSection() {
 
                 {/* Big Heading */}
                 <div className="flex justify-center">
-                    <img 
-                        src="/portfolio/image1.png" 
+                    <img
+                        src="/portfolio/image1.png"
                         alt="Services Heading"
                         className="w-full object-contain"
                     />
@@ -21,11 +21,11 @@ export default function ServicesSection() {
                 {/* Paragraph */}
                 <div className="mt-16 text-center flex justify-center">
                     <p className="max-w-6xl text-slate-600 text-lg md:text-lg leading-relaxed">
-                       Our portfolio showcases strong capabilities in web, mobile, and backend development delivering scalable, high-performance digital solutions. Using technologies like React, Flutter, Node.js, Next.js, modern databases, and cloud infrastructure, we build each project with a focus on performance, security, and seamless user experience.
+                        Our portfolio showcases strong capabilities in web, mobile, and backend development delivering scalable, high-performance digital solutions. Using technologies like React, Flutter, Node.js, Next.js, modern databases, and cloud infrastructure, <br /> we build each project with a focus on performance, security, and seamless user experience.
                     </p>
                 </div>
 
-               
+
 
                 {/* Icons Grid */}
                 <div className="mt-16 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-12 gap-8 place-items-center">

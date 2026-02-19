@@ -7,7 +7,8 @@ const sections = [
     {
         type: "text",
         variant: "split", // special first slide
-        heading: "Showcasing Websites for Our Clients",
+        heading: "Showcasing",
+        heading2: "Client's Websites",
         paragraph:
             "We build fast, secure, and easy-to-use websites for businesses across industries from booking systems and billing platforms to payroll, healthcare, and online stores. Every site is designed to be simple, reliable, and built to support your growth.",
     },
@@ -71,11 +72,16 @@ export default function HorizontalScrollSections() {
                             return (
                                 <div
                                     key={index}
-                                    className="w-[62vw] h-screen bg-[#2f2f2f] text-white flex flex-col justify-between px-20 py-24 flex-shrink-0"
+                                    className="w-[82vw] h-screen bg-[#2f2f2f] text-white flex flex-col justify-between px-20 py-24 flex-shrink-0"
                                 >
-                                    <h1 className="text-[70px] font-light leading-tight">
-                                        {section.heading}
-                                    </h1>
+                                    <div>
+                                        <h1 className="text-[70px] font-light leading-tight">
+                                            {section.heading}
+                                        </h1>
+                                        <h2 className="text-[70px] font-light leading-tight">
+                                            {section.heading2}
+                                        </h2>
+                                    </div>
 
                                     <p className="max-w-xl text-lg text-white/80 leading-relaxed">
                                         {section.paragraph}
@@ -91,7 +97,7 @@ export default function HorizontalScrollSections() {
                                     key={index}
                                     className="w-screen h-screen bg-[#2f2f2f] flex items-center justify-center flex-shrink-0"
                                 >
-                                    <div className="w-full max-w-[1400px] flex items-center gap-20 px-16">
+                                    <div className="w-full max-w-[1400px] flex items-center gap-20 ">
 
                                         {/* LEFT IMAGE */}
                                         <div className="w-[45%]">
@@ -113,6 +119,7 @@ export default function HorizontalScrollSections() {
                                                 {section.paragraph}
                                             </p>
                                         </div>
+                                        <div className="hidden lg:block w-[1px] h-[100vh] bg-white/10 ml-auto"></div>
 
                                     </div>
                                 </div>
