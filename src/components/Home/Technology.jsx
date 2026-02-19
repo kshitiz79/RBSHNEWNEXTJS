@@ -11,74 +11,52 @@ const slides = [
   // your slides array same as before...
   {
     id: 1,
-    title: "Node.js",
-    content: "Fast JavaScript runtime for scalable web applications.",
     logo: "/technology1.webp",
   },
   {
     id: 2,
-    title: "React.js",
     content: "Library for building dynamic user interfaces ",
     logo: "/technology5.webp",
   },
   {
     id: 3,
-    title: "Adobe Creative Cloud",
-    content: "Design and editing tools for creative professionals.",
     logo: "/technology12.webp",
   },
   {
     id: 4,
-    title: "Google Trends",
-    content: "Explore trending search topics and keyword .",
     logo: "/technology11.webp",
   },
   {
     id: 5,
-    title: "Next.js",
-    content: "React framework for server-side rendering and.",
     logo: "/technology9.webp",
   },
   {
     id: 6,
-    title: "Google Analytics",
-    content: "Track and analyze website traffic and performance.",
+    logo: "/technology3.webp",
     logo: "/technology3.webp",
   },
   {
     id: 7,
-    title: "DaVinci Resolve",
-    content: "Professional editing and color correction software.",
     logo: "/technology2.webp",
   },
   {
     id: 8,
-    title: "Mailchimp",
-    content: "Email marketing platform for campaigns .",
     logo: "/technology4.webp",
   },
   {
     id: 9,
-    title: "HubSpot",
-    content: "CRM software for marketing, sales",
     logo: "/technology7.webp",
   },
   {
     id: 10,
-    title: "Canva",
-    content: "Online tool for designing graphics ",
     logo: "/technology10.webp",
   },
   {
     id: 11,
-    title: "Google Ads",
-    content: "Advertising platform to reach customers ",
     logo: "/technology8.webp",
   },
   {
     id: 12,
-    title: "Facebook Analytics",
-    content: "Insights into your audience and engagement.",
     logo: "/technology6.webp",
   },
 ];
