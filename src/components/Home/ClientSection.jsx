@@ -11,6 +11,13 @@ const row1Clients = [
   { name: "Client 8", logo: "/clients14.png", alt: "Client 8 logo" },
   { name: "Glucks Wealth", logo: "/clients12.png", alt: "Glucks Wealth logo" },
   { name: "Client 10", logo: "/clients16.png", alt: "Client 10 logo" },
+  { name: "Client 10", logo: "/pnglogo/1.png", alt: "Client 10 logo" },
+  { name: "Client 10", logo: "/pnglogo/2.png", alt: "Client 10 logo" },
+  { name: "Client 10", logo: "/pnglogo/3.png", alt: "Client 10 logo" },
+  { name: "Client 10", logo: "/pnglogo/4.png", alt: "Client 10 logo" },
+  { name: "Client 10", logo: "/pnglogo/5.png", alt: "Client 10 logo" },
+  { name: "Client 10", logo: "/pnglogo/6.png", alt: "Client 10 logo" },
+  { name: "Client 10", logo: "/pnglogo/7.png", alt: "Client 10 logo" },
 ];
 
 const row2Clients = [

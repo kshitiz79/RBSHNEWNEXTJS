@@ -44,84 +44,84 @@ const images = [
     },
     {
         src: "/websites/gluckscare.png",
-        category: "Aviation",
+        category: "Pharmaceuticals",
         title: "1.Flyola – Flight Booking Platform",
         para: "A smart and seamless travel booking platform designed to simplify flight searches, reservations, and travel planning in just a few clicks.",
         link: "https://gluckscare.com/"
     },
     {
         src: "/websites/uc.gif",
-        category: "Aviation",
+        category: "Ad Agency",
         title: "Urban Chanakya",
         para: "Strategic political branding platform delivering impactful, data-driven campaigns.",
         link: "https://urbanchanakya.in/"
     },
     {
         src: "/websites/anci.png",
-        category: "Aviation",
+        category: "Interior Design",
         title: "ANCA – Interior Design Website",
         para: "Premium interior design platform transforming commercial spaces with innovative spatial design solutions.",
         link: "https://anci.in/"
     },
     {
         src: "/websites/himtaj.png",
-        category: "Aviation",
+        category: "E-commerce",
         title: "Himtaj – Jewellery E-commerce Website",
         para: "Elegant jewellery e-commerce platform designed for seamless shopping and a premium brand experience.",
         link: "https://anci.in/"
     },
     {
         src: "/websites/tnt.png",
-        category: "Aviation",
+        category: "Education",
         title: "TNT Techies Guide – IT Training & Services Website",
         para: "Comprehensive IT training and services platform empowering students and professionals to grow.",
         link: "https://tnttechiesguide.com/"
     },
     {
         src: "/websites/MaheshManzar.png",
-        category: "Aviation",
+        category: "Biography",
         title: "Mahesh Manzar – Author & Book Website",
         para: "Engaging author website crafted to showcase the book, legacy, and literary journey.",
         link: "https://www.maheshmanzar.com/"
     },
     {
         src: "/websites/bkm.png",
-        category: "Aviation",
+        category: "Fintech",
         title: "BKM Global – Trading Solutions Website",
         para: "Advanced financial trading platform delivering global investment and risk management solutions.",
         link: "https://bkmglobal.in/"
     },
     {
         src: "/websites/gluckswealth.gif",
-        category: "Aviation",
+        category: "Fintech",
         title: "Glucks Wealth – Investment Platform",
         para: "Trusted investment platform offering smart financial solutions and fixed deposit opportunities.",
         link: "https://gluckswealth.com/"
     },
     {
         src: "/websites/infods.png",
-        category: "Aviation",
+        category: "Fintech",
         title: "InfoD – Intelligent Trading Platform",
         para: "Smart algorithmic trading website built for strategic investments and currency market solutions.",
         link: "https://www.infoduae.com/"
     },
     {
         src: "/websites/activesine.gif",
-        category: "Aviation",
+        category: "Electronics",
         title: "Active Sine – Power Quality Solutions Website",
         para: "Advanced power quality platform delivering efficient and enhanced power factor solutions.",
         link: "https://www.activesine.com/"
     },
     {
         src: "/websites/eps.png",
-        category: "Aviation",
+        category: "Electronics",
         title: "EPS – Power Quality Solutions Website",
         para: "Professional power solutions website showcasing products, services, and seamless client support.",
         link: "https://epselectricals.com/"
     },
     {
         src: "/websites/upflair.gif",
-        category: "Aviation",
+        category: "Electronics",
         title: "Upflair Power & Data Center Solutions Website",
         para: "Comprehensive power and data center solutions platform built for reliability, performance, and business continuity.",
         link: "https://www.upflair.in/"
