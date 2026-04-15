@@ -298,7 +298,7 @@ export default function ProfileSection() {
 
                 {/* RIGHT GALLERY */}
                 <div className="flex-1 px-6 md:px-12 ">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-8">
 
                         {filteredImages.map((img, index) => (
                             <ProjectCard key={index} img={img} index={index} />

@@ -69,16 +69,16 @@ const Hero = () => {
     []
   );
 
-useEffect(() => {
-  const scrollingBg = document.querySelectorAll(".scrolling-bg");
-  const animate = () => {
-    scrollingBg.forEach(bg => {
-      bg.style.backgroundPosition = `${parseFloat(bg.style.backgroundPosition || '0') - 0.01}% 0`;
-    });
-    requestAnimationFrame(animate);
-  };
-  animate();
-}, []);
+  useEffect(() => {
+    const scrollingBg = document.querySelectorAll(".scrolling-bg");
+    const animate = () => {
+      scrollingBg.forEach(bg => {
+        bg.style.backgroundPosition = `${parseFloat(bg.style.backgroundPosition || '0') - 0.01}% 0`;
+      });
+      requestAnimationFrame(animate);
+    };
+    animate();
+  }, []);
 
 
   return (
@@ -124,9 +124,8 @@ useEffect(() => {
                 {words[currentWordIndex].symbols.left}
               </span>{" "}
               <span
-                className={`font-bold inline-block transition-all duration-500 ease-in-out  ${
-                  colors[currentWordIndex % colors.length]
-                }`}
+                className={`font-bold inline-block transition-all duration-500 ease-in-out  ${colors[currentWordIndex % colors.length]
+                  }`}
                 style={{ minWidth: "10px", textAlign: "center" }}
               >
                 {words[currentWordIndex].word}
@@ -136,7 +135,7 @@ useEffect(() => {
               </span>
             </span>{" "}
             designs that <br />
-             bring your vision to life and set your brand apart.
+            bring your vision to life and set your brand apart.
           </p>
 
           <Link
