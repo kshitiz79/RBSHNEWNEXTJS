@@ -71,8 +71,8 @@ export default function CurvedImagesScroll() {
 
         // 🔥 before entering → keep on right side
         if (localProgress === 0) {
-          card.style.left = "20%";
-          card.style.top = "160%";
+          card.style.left = "-100%";
+          card.style.top = "-100%";
           card.style.transform = "translate(-50%, -50%) rotate(0deg)";
           return;
         }
