@@ -42,7 +42,7 @@ export default function CurvedImagesScroll() {
   // ✅ track only this section
   const { scrollYProgress } = useScroll({
     target: sectionRef,
-    offset: ["start 0%", "end 0%"],
+    offset: ["start 60%", "end -40%"],
   });
 
   // smooth scroll
@@ -135,8 +135,11 @@ export default function CurvedImagesScroll() {
                 ref={(el) => (cardRefs.current[i] = el)}
                 className="absolute w-[385px] h-[510px] shadow-lg overflow-hidden group"
                 style={{
+                  // ← INITIAL OFF-SCREEN POSITION (prevents flash)
+                  left: "-100%",
+                  top: "-100%",
+                  transform: "translate(-50%, -50%) rotate(0deg) translateZ(0)",
                   willChange: "transform",
-                  transform: "translateZ(0)",
                   backfaceVisibility: "hidden",
                 }}
               >
@@ -151,6 +154,7 @@ export default function CurvedImagesScroll() {
                   }}
                 />
 
+                {/* rest of your overlay, + button, title ... remains exactly the same */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#102020]/90 via-[#102020]/20 to-transparent pointer-events-none"></div>
 
                 <div className="absolute top-[45%] left-8 w-12 h-12 border border-white/40 rounded-full flex items-center justify-center text-white text-xl backdrop-blur-sm bg-black/10 font-light cursor-pointer hover:bg-white hover:text-black transition-colors">
@@ -170,14 +174,8 @@ export default function CurvedImagesScroll() {
         </div>
       </div>
       <div className="bg-white relative">
-        <img
-          src="https://cdn.prod.website-files.com/6823b8d01ea974e1ea9f480c/68dbdf664a09ecde73b9726d_6825f5b2adb08f9e4ca90466_Aquamare-027-resized_processed_by_imagy.avif"
-          alt=""
-          className="w-full h-full"
-        />
+        <img src="/design1.png" alt="" className="w-full h-full" />
       </div>
     </>
   );
 }
-
-// 385 * 510
