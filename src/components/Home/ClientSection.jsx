@@ -5,8 +5,16 @@ import Marquee from "react-fast-marquee";
 
 const row1Clients = [
   { name: "Active Sine", logo: "/clients8.png", alt: "Active Sine logo" },
-  { name: "Glucks Finance", logo: "/clients10.png", alt: "Glucks Finance logo" },
-  { name: "Glucks Finance", logo: "/clients11.png", alt: "Glucks Finance logo" },
+  {
+    name: "Glucks Finance",
+    logo: "/clients10.png",
+    alt: "Glucks Finance logo",
+  },
+  {
+    name: "Glucks Finance",
+    logo: "/clients11.png",
+    alt: "Glucks Finance logo",
+  },
   { name: "Client 7", logo: "/clients13.png", alt: "Client 7 logo" },
   { name: "Client 8", logo: "/clients14.png", alt: "Client 8 logo" },
   { name: "Glucks Wealth", logo: "/clients12.png", alt: "Glucks Wealth logo" },
@@ -41,7 +49,7 @@ const ClientSection = () => {
               <img
                 src={client.logo}
                 alt={client.alt}
-                className="mx-auto h-16 w-auto"
+                className="py-10 w-36 md:w-30 lg:w-46 mx-auto"
               />
             </div>
           ))}
@@ -56,7 +64,7 @@ const ClientSection = () => {
               <img
                 src={client.logo}
                 alt={client.alt}
-                className="py-10 w-36 md:w-40 lg:w-56 mx-auto"
+                className="py-10 w-36 md:w-30 lg:w-46 mx-auto"
               />
             </div>
           ))}

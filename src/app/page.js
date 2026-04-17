@@ -1,4 +1,5 @@
 import ClientSection from "@/components/Home/ClientSection";
+import CurvedImagesScroll from "@/components/Home/CurvedImagesScroll";
 import CurvedTextMarquee from "@/components/Home/CurvedTextMarquee";
 import DefineUs from "@/components/Home/DefineUs";
 import FloatingSection from "@/components/Home/FloatingSection";
@@ -51,9 +52,13 @@ export default function Home() {
       <Tablet />
       <ValuesSection />
       <Gallery />
-      {/* <HorizontalScrollCard /> */}
-      {/* <HorizontalImageScrollCards /> */}
+      
+     <div className="md:hidden block">
+      <CurvedImagesScroll />
+      </div>
+    <div className="md:block hidden">
       <CurvedTextMarquee />
+      </div>
       <ClientSection />
       <Technology />
     </>
